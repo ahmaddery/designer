@@ -58,7 +58,7 @@ export default function FlowchartPropertiesPanel() {
       <motion.div
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
-        className="w-80 bg-slate-900/95 backdrop-blur-sm border-l border-slate-800 flex flex-col"
+        className="w-full h-full bg-slate-900/95 backdrop-blur-sm flex flex-col"
       >
         <div className="flex items-center justify-between px-4 py-3 border-b border-slate-800">
           <h2 className="font-semibold text-slate-200">Properties</h2>
@@ -89,7 +89,7 @@ export default function FlowchartPropertiesPanel() {
     <motion.div
       initial={{ opacity: 0, x: 20 }}
       animate={{ opacity: 1, x: 0 }}
-      className="w-80 bg-slate-900/95 backdrop-blur-sm border-l border-slate-800 flex flex-col h-full"
+      className="w-full h-full bg-slate-900/95 backdrop-blur-sm flex flex-col"
     >
       {/* Header */}
       <div className="flex items-center justify-between px-4 py-3 border-b border-slate-800">

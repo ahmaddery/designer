@@ -72,7 +72,7 @@ export default function ShapeLibrary({ onDragStart }: ShapeLibraryProps) {
     : null;
 
   return (
-    <div className="w-64 bg-slate-900/95 backdrop-blur-sm border-r border-slate-800 flex flex-col h-full">
+    <div className="w-full h-full bg-slate-900/95 backdrop-blur-sm flex flex-col">
       {/* Header */}
       <div className="flex items-center justify-between px-4 py-3 border-b border-slate-800">
         <h2 className="font-semibold text-slate-200">Shapes</h2>

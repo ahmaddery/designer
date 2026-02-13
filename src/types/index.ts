@@ -1,4 +1,6 @@
 // Types for ERD Designer
+export * from './flowchart';
+export * from './usecase';
 
 export type DataType = 
   | 'VARCHAR' 
